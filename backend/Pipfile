@@ -7,6 +7,9 @@ name = "pypi"
 django = "==4.1.5"
 ipython = "*"
 djangorestframework = "==3.14.0"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
 
 [dev-packages]
 
