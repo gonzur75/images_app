@@ -10,6 +10,8 @@ djangorestframework = "==3.14.0"
 pytest = "*"
 pytest-django = "*"
 pytest-cov = "*"
+python-magic = "*"
+pillow = "==9.4.0"
 
 [dev-packages]
 

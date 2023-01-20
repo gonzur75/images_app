@@ -24,3 +24,8 @@ def image_handler(db, user):
 
     yield image
     os.remove(os.path.join(BASE_DIR, 'media', 'images', 'test_file.jpg'))
+
+
+@pytest.fixture
+def image():
+    yield SimpleUploadedFile('test_file.jpg', content=open(os.path.join('tests', 'test_image.jpg'), 'rb').read())

@@ -14,4 +14,4 @@ def test_image_creation(image_handler):
 
 @pytest.mark.models
 def test_image_fields(image_handler):
-    assert [*vars(image_handler)] == ['_state', 'id', 'author_id', 'name', 'url', 'created_at', 'updated_at']
+    assert [*vars(image_handler)] == ['_state', 'id', 'author_id', 'name', 'url', 'created', 'update_at']
